@@ -1,0 +1,36 @@
+export class ViewKeys {
+  static Identification = "Cedula";
+  static FingerprintCode = "CodigoDactilar";
+  static Biometric = "Biometria";
+  static ReValidateBiometric = "RevalidarBiometria";
+  static ModalBiometric = "ModalBiometria";
+  static Sopuse = "DatosConyugue";
+  static ContractAccountDocument = "ContractAccountDocument";
+  static PersonCivilData = "DatosRegistroCivil";
+  static EmploymentStatus = "SituacionLaboral";
+  static FinishContract = "ContratacionFinalizada";
+  static ResumeRequest = "RetomarSolicitud";
+  static IncomingOrigin = "OrigenDeIngresos";
+  static IncomingRange = "RangoDeIngresos";
+  static PhoneNumber = "NumeroDeTelefono";
+  static EcuadorPhoneNumber = "NumeroDeTelefonoEcuador";
+  static ExteriorPhoneNumber = "NumeroDeTelefonoExterior";
+  static ContractOTP = "ContractOTP";
+  static DebitCardName = "NombreTarjetaDebito";
+  static HomeAddress = "DireccionDomicilio";
+  static WorkAddress = "DireccionTrabajo";
+  static PlaceOfDelivery = "DirecionEntrega";
+  static SegureAccountPlus = "CuentaSeguraPlus";
+  static AlertBG = "AvisoBG";
+  static Email = "Correo";
+  static GeneralValidationModal = "ModalValidacionGeneral";
+  static TermsAndConditionsModal = "ModalTerminosYCondiciones";
+  static UserBlockedModal = "ModalUsuarioBloqueado";
+  static BiometricFailModal = "ModalFalloBiometrico";
+  static CameraNotAvailableModal = "ModalCamaraNoDisponible";
+  static BiometricTermsModal = "ModalTerminosBiometricos";
+  static DeclareTaxes = "DeclaracionDeImpuestos";
+  static BirthPlace = "LugarDeNacimiento";
+  static Patrimony = "Patrimonio";
+  static TariffModal = "ModalTarifario";
+}
