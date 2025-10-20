@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --default-color: #ffffff;
+  --text-color-secundary: #424242;
+  --primary-bg-color: #d2006e;
+  --secondary-bg-color: #160f41;
+  --credit-card-bg-color: #1c2851;
+  --gray-200: #f3f3f3;
+  --spacing-spacing-s-02: 16px;
+  --background-color-disabled: #ededed;
+  --background-background-color-variant: #F9F9F9;
+  --background-gray: #f9f9f9;
+  --black-opacity-40: #00000066;
+  --background-variant-gray: #d0d0d0;
+  --text-color-terciary: #717171;
+  --text-color-default: #121212;
+  --text-color-link: #0f62fe;
+  --text-success-secondary: #0b4401;
+  --text-color-critical: #da1e28;
+  --text-color-critical-light: #FDF3F4;
+  --icon-success: #24a148;
+  --success-point: #09a94e;
+  --teal-color: #f3f7fe;
+  --text-success: #09b500;
+  --critical-variant: #fdf2f7;
+  --text-color-variant: #393939;
+  --icon-color-variant: #898989;
+  --gray-secondary: #d0cedb;
+  --gray-variant: #8a87a0;
+  --color-amex: #006fcf;
+  --color-mastercard: #19110b;
+  --color-visa: #1a1f71;
+  --card-dark: #212121;
+  --gradient-visa: #1250aa;
+  --yellow-50: #f8e9dc;
+  --lightblue-background: #F2FAFF;
+  --Background-background-color-tertiary: #F3F3F3;
+  --background-color-tertiary: #F2FAFF;
+  --background-color-link-variant: #F2FAFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+  font-size: 100%;
+  overflow-x: hidden;
+  color: var(--text-color-default);
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url(./view/assets/theme/fonts/Nunito_Sans/NunitoSans-Regular.ttf)
+    format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./view/assets/theme/fonts/Nunito_Sans/NunitoSans-Bold.ttf)
+    format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(./view/assets/theme/fonts/Nunito_Sans/NunitoSans-ExtraBold.ttf)
+    format('truetype');
+}
+
+#root {
+  height: 100%;
+}
+
+ion-col {
+  flex: 1 1 0% !important;
+  max-height: 100%;
+}
+
+img {
+  max-width: 100%;
+  -webkit-user-drag: none;
+}
+
+.bg-primary {
+  background-color: var(--primary-bg-color);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-bg-color);
+}
+
+.bg-credit-card {
+  background-color: var(--credit-card-bg-color);
+}
+
+.scrollBar {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  
+}
+
+.scrollBar:hover::-webkit-scrollbar-thumb {
+  border-radius: 1.25rem;
+  background-color: var(--background-variant-gray);
+
+}
+
+.scrollBar:hover::-webkit-scrollbar-track {
+  margin-block: 1rem;
+}
+
+.scrollBar::-webkit-scrollbar-track{
+  -webkit-box-shadow: inset 0 0 6px     rgba(0,0,0,0.3); 
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+input[type='number'] {
+  appearance: none;
+  -moz-appearance: textfield;
+}
+
+.textTruncate {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.in-toolbar {
+  --background: transparent;
+}
+
+@media (max-width: 767px) {
+  .grecaptcha-badge {
+    height: 48px !important;
+    right: -200px !important;
+  }
+}
