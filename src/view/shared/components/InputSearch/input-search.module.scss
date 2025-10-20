@@ -1,0 +1,31 @@
+.inputSearchWrapper {
+  display: flex;
+  position: relative;
+  border-radius: 2.3125rem;
+  background-color: var(--background-gray);
+}
+
+.inputSearch {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: inherit;
+  background-color: inherit;
+  outline: none;
+  padding-left: 3rem;
+}
+
+.inputSearchIconWrapper {
+  display: inline-flex;
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  height: 100%;
+  align-items: center;
+}
+
+.inputSearchIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--background-variant-gray);
+}

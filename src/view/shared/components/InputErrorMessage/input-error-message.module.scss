@@ -1,0 +1,13 @@
+.containerMessage {
+  position: relative;
+  margin-top: 0.5rem;
+}
+
+.errorMessage {
+  position: absolute;
+  margin-left: 0.25rem;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--primary-bg-color);
+}

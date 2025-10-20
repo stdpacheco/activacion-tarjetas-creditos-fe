@@ -1,0 +1,51 @@
+.bankSelectGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label {
+  display: block;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.bankSelect {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: var(--gray-200);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.institution {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.institutionImg {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+}
+
+.institutionPlaceholder {
+  color: var(--text-color-terciary);
+}
+
+.iconWrapper {
+  display: inline-flex;
+}
+
+.chevronIcon {
+  font-size: 1.5rem;
+  color: var(--text-color-terciary);
+}

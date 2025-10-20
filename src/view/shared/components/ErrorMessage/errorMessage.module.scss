@@ -1,0 +1,25 @@
+.errorMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--text-color-critical);
+  animation: slideDown 0.5s ease;
+}
+
+.errorMessageIcon {
+  margin-top: 0.125rem;
+  font-size: 1rem;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

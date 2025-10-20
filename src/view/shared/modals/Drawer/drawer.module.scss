@@ -1,0 +1,71 @@
+.drawerOverlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: opacity 0.4s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.drawer.open + .drawerOverlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.drawer {
+  position: fixed;
+  transform: translateX(150%);
+  transition: transform 0.4s ease-in-out;
+  background-color: var(--default-color);
+  overflow-x: hidden;
+  z-index: 1;
+  box-shadow: -0.1875rem 0rem 0.625rem 0rem rgba(0, 0, 0, 0.3);
+}
+
+.rightDrawer,
+.leftDrawer {
+  width: 22.5rem;
+  height: calc(100% - 2rem);
+  transform: translateX(0%);
+  margin: 1rem;
+}
+
+.topDrawer,
+.bottomDrawer {
+  width: 37.5rem;
+  margin: 0 auto;
+  left: 56%;
+  transform: translateX(-50%);
+  height: 20.125rem;
+}
+
+.topDrawer {
+  border-radius: 0 0 0.5rem 0.5rem;
+  top: 0;
+}
+
+.bottomDrawer {
+  bottom: 0;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.rightDrawer {
+  right: 0;
+  top: 0;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.leftDrawer {
+  top: 0;
+  left: 0;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.drawerContent {
+  padding: 1rem;
+}
+
+.drawerHidden {
+  display: none;
+}

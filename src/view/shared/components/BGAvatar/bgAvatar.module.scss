@@ -1,0 +1,14 @@
+.bgAvatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--default-color);
+  background-color: var(--primary-bg-color);
+}
+
+.bgAvatarText {
+  font-size: 1.125rem;
+  color: inherit;
+}

@@ -1,0 +1,34 @@
+.filterWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-color-link);
+  cursor: pointer;
+}
+
+.filterIconWrapper {
+  display: inline-flex;
+}
+
+.filterIcon {
+  font-size: 1.2rem;
+}
+
+.filterLabel {
+  font-size: 1rem;
+}
+
+.filterActive {
+  font-weight: 700;
+}
+
+.filterIconWrapperActive {
+  padding: 4px;
+  border-radius: 50%;
+  background-color: var(--text-color-link);
+}
+
+.filterIconActive {
+  font-size: 1rem;
+  color: var(--default-color);
+}

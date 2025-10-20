@@ -1,0 +1,64 @@
+.modalWrapper {
+  max-width: 25rem;
+  padding: 2rem;
+}
+
+.formOtp {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+
+  &LockIcon {
+    font-size: 1.5rem;
+  }
+
+  &Title {
+    span {
+      width: 100%;
+      color: var(--text-color-default);
+      font-size: 1.75rem;
+      font-weight: 700;
+      line-height: 140%;
+      word-wrap: break-word;
+    }
+  }
+
+  &InfoText {
+    color: var(--text-color-variant);
+    font-size: 1.125em;
+    font-weight: 600;
+    line-height: 150%;
+  }
+
+  &Validate {
+    color: var(--icon-color-variant);
+    text-align: center;
+    font-size: 0.9375em;
+    line-height: 150%;
+  }
+
+  &Otp {
+    display: flex;
+    justify-content: center;
+  }
+
+  &TextBottomOtp {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5rem;
+    font-size: 0.9375em;
+
+    &Question {
+      color: var(--icon-color-variant);
+    }
+
+    &NewOtp {
+      color: var(--text-color-link);
+      text-decoration: underline;
+      line-height: 115%;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.skeletonCard {
+  padding: 1rem;
+  background-color: var(--background-gray);
+  width: 168px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+
+  &Icon {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+  }
+}
+
+.skTxtRounded {
+  border-radius: 0.75rem;
+}

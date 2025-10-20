@@ -1,0 +1,30 @@
+.wrapper {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  transition: background ease-in;
+  background: transparent;
+  display: grid;
+  place-items: center;
+  min-height: 100dvh;
+  width: 100%;
+}
+
+.modalContent {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--default-color);
+  border-radius: 0.5rem;
+
+  @media (max-width: 767px) {
+    align-self: end;
+    border-radius: 1rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(2px);
+}

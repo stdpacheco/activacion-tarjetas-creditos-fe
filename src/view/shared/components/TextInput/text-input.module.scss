@@ -1,0 +1,35 @@
+@import '/src/view/styles/utilities/variables';
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    display: block;
+    color: #121212;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.125rem;
+    word-wrap: break-word;
+    margin-bottom: 0.5rem;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    padding: 1rem 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    transition: all 0.3s ease;
+    color: $text-color-default;
+    border: 0.0625rem solid $background-color-disabled;
+
+    &:focus {
+      border: 0.0625rem solid;
+      border-color: $text-color-default;
+      outline: none;
+    }
+  }
+}

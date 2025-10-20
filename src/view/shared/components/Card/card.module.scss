@@ -1,0 +1,12 @@
+@import '/src/view/styles/utilities/variables';
+
+.card {
+  display: grid;
+  box-shadow: rgba(0, 0, 0, 0.1) 8px 8px 19px;
+  background-color: $background-color-default;
+  border-radius: 1rem;
+  padding: 2rem;
+  row-gap: 1.2rem;
+  min-width: 20rem;
+  max-width: 20rem;
+}

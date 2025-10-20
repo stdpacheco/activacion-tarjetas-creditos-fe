@@ -1,0 +1,27 @@
+@import '/src/view/styles/utilities/variables';
+
+.contactBackInfo{
+    &Container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: .2rem;
+
+        img{
+            width: 1.5rem;
+        }
+    }
+
+    &NameContact{
+        text-align: start;
+        font-size: 1rem;
+        font-weight: 700;
+        margin-top: .4rem;
+    }
+
+    &Account{
+        font-size: .875rem;
+        font-weight: 400;
+    }
+}

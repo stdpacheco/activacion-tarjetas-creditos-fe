@@ -1,0 +1,15 @@
+.otpInput {
+  outline: none;
+  min-width: 49.32px;
+  height: 49.32px;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  background-color: var(--gray-200);
+  border: 3px solid transparent;
+
+  &:focus,
+  &:focus-visible {
+    border-color: var(--primary-bg-color);
+  }
+}

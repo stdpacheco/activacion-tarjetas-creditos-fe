@@ -1,0 +1,25 @@
+.tooltipContainer {
+  position: fixed;
+  color: var(--default-color);
+  background-color: var(--secondary-bg-color);
+  display: inline-block;
+  max-width: 15rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.tooltipContainer::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -7px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 8px solid var(--secondary-bg-color);
+  border-bottom: 10px solid transparent;
+}

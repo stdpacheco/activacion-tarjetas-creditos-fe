@@ -1,0 +1,26 @@
+.badge {
+  width: 45px;
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.badgeLabel {
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.badgeSuccess {
+  background-color: #edf7ed;
+  color: var(--text-success-secondary);
+}
+
+.badgeError {
+  background-color: #fdeded;
+  color: var(--text-color-critical);
+}
+
+.badgeInfo {
+  background-color: #f3f7fe;
+  color: var(--text-color-link);
+}

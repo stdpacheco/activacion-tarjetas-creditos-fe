@@ -1,0 +1,22 @@
+.menuItem {
+  width: 3.25rem;
+  height: 3.25rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 200ms ease-in;
+
+  color: inherit;
+  text-decoration: none;
+
+  &:hover,
+  &.active {
+    background: var(--gray-200);
+  }
+}
+
+.menuIcon {
+  font-size: 1.25rem;
+}

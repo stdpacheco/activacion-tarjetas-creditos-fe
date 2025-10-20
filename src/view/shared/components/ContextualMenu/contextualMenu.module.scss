@@ -1,0 +1,25 @@
+.contextMenuContent {
+  min-width: 240px;
+  background: var(--default-color);
+  box-shadow: 0px 0px 32px 0px #00000033;
+  border-radius: 0.75rem;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.contextMenuItem {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 14px;
+  transition: background-color 200ms ease-in;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid var(--background-variant-gray);
+  }
+
+  &:hover {
+    background-color: var(--background-gray);
+  }
+}

@@ -1,0 +1,24 @@
+.inputAmountWrapper {
+  width: 100%;
+  padding: 1rem 0;
+  border-radius: 1rem;
+  background: var(--default-color);
+  border: 1px solid var(--background-color-disabled);
+}
+
+.inputAmount {
+  appearance: none;
+  border: none;
+  outline: none;
+  font-size: 35px;
+  width: 100%;
+  text-align: center;
+
+  &:disabled {
+    background-color: transparent;
+  }
+}
+
+.inputAmountError {
+  border: 2px solid var(--text-color-critical);
+}
