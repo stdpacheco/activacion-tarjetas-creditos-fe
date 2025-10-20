@@ -48,3 +48,10 @@ If you are developing a production application, we recommend updating the config
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 >>>>>>> 2d89006 (initial commit)
+
+## Eecution Project
+fnm install 18.20.4
+fnm use 18.20.4
+npm install --legacy-peer-deps
+npm run dev
+npm run dev:local
