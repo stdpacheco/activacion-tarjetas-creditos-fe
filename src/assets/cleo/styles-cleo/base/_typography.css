@@ -1,0 +1,207 @@
+:root {
+  --font-family-base: var(--font-family);
+  --font-family-display: var(--font-family-display);
+  --font-weight-regular: var(--font-weight-regular);
+  --font-weight-semibold: var(--font-weight-semibold);
+  --font-weight-bold: var(--font-weight-bold);
+  --font-weight-extrabold: var(--font-weight-extrabold);
+  --font-size-100: 12px;
+  --font-size-200: 14px;
+  --font-size-300: 16px;
+  --font-size-400: 19px;
+  --font-size-500: 23px;
+  --font-size-600: 26px;
+  --font-size-700: 33px;
+  --font-size-800: 40px;
+  --font-size-900: 48px;
+  --line-height-100: 17px;
+  --line-height-200: 21px;
+  --line-height-300: 24px;
+  --line-height-400: 27px;
+}
+
+.DisplayLarge, :host .DisplayLarge {
+  font-size: var(--font-size-900);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-400);
+  font-family: var(--font-family-base);
+}
+
+.DisplayMedium, :host .DisplayMedium {
+  font-size: var(--font-size-800);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-400);
+  font-family: var(--font-family-base);
+}
+
+.DisplaySmall, :host .DisplaySmall {
+  font-size: var(--font-size-700);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-400);
+  font-family: var(--font-family-base);
+}
+
+.HeadlineH1, :host .HeadlineH1 {
+  font-size: var(--font-size-600);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-400);
+  font-family: var(--font-family-base);
+}
+
+.Subtitle1H2, :host .Subtitle1H2 {
+  font-size: var(--font-size-500);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-400);
+  font-family: var(--font-family-base);
+}
+
+.Subtitle2H3, :host .Subtitle2H3 {
+  font-size: var(--font-size-400);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-400);
+  font-family: var(--font-family-base);
+}
+
+.Body1PrimaryText, :host .Body1PrimaryText {
+  font-size: var(--font-size-300);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-300);
+  font-family: var(--font-family-base);
+}
+
+.Body2SecondaryText, :host .Body2SecondaryText {
+  font-size: var(--font-size-200);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-300);
+  font-family: var(--font-family-base);
+}
+
+.Overline1, :host .Overline1 {
+  font-size: var(--font-size-200);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-400);
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  font-family: var(--font-family-base);
+}
+
+.Overline2, :host .Overline2 {
+  font-size: var(--font-size-200);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-400);
+  letter-spacing: 1.68px;
+  text-transform: uppercase;
+  font-family: var(--font-family-base);
+}
+
+.Caption, :host .Caption {
+  font-size: var(--font-size-100);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-400);
+  font-family: var(--font-family-base);
+}
+
+.Link1-Subtitle2, :host .Link1-Subtitle2 {
+  color: var(--Text-text-color-link);
+  font-size: var(--font-size-300);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-300);
+  text-decoration-line: underline;
+  font-family: var(--font-family-base);
+}
+
+.Link2-Body1, :host .Link2-Body1 {
+  color: var(--Text-text-color-link);
+  font-size: var(--font-size-400);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-400);
+  font-family: var(--font-family-base);
+}
+
+.Link3-Body2, :host .Link3-Body2 {
+  color: var(--Text-text-color-link);
+  font-size: var(--font-size-200);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-300);
+  font-family: var(--font-family-base);
+}
+
+@media (min-width: 768px) {
+  .DisplayLargeWeb, :host .DisplayLargeWeb {
+    font-size: var(--font-size-900);
+    line-height: var(--line-height-400);
+  }
+
+  .DisplayMediumWeb, :host .DisplayMediumWeb {
+    font-size: var(--font-size-800);
+    line-height: var(--line-height-400);
+  }
+
+  .DisplaySmallWeb, :host .DisplaySmallWeb {
+    font-size: var(--font-size-700);
+    line-height: var(--line-height-400);
+  }
+
+  .HeadlineH1Web, :host .HeadlineH1Web {
+    font-size: var(--font-size-600);
+    line-height: var(--line-height-400);
+  }
+
+  .Subtitle1H2Web, :host .Subtitle1H2Web {
+    font-size: var(--font-size-500);
+    line-height: var(--line-height-400);
+  }
+
+  .Subtitle2H3Web, :host .Subtitle2H3Web {
+    font-size: var(--font-size-400);
+    line-height: var(--line-height-400);
+  }
+
+  .Body1PrimaryTextWeb, :host .Body1PrimaryTextWeb {
+    font-size: var(--font-size-300);
+    line-height: var(--line-height-300);
+  }
+
+  .Body2SecondaryTextWeb, :host .Body2SecondaryTextWeb {
+    font-size: var(--font-size-200);
+    line-height: var(--line-height-300);
+  }
+
+  .Overline1Web, :host .Overline1Web {
+    font-size: var(--font-size-200);
+    line-height: var(--line-height-400);
+    letter-spacing: 3px;
+  }
+
+  .Overline2Web, :host .Overline2Web {
+    font-size: var(--font-size-200);
+    line-height: var(--line-height-400);
+    letter-spacing: 1.8px;
+  }
+
+  .Overline3Web, :host .Overline3Web {
+    font-size: var(--font-size-100);
+    line-height: var(--line-height-400);
+    letter-spacing: 0.96px;
+  }
+
+  .CaptionWeb, :host .CaptionWeb {
+    font-size: var(--font-size-100);
+    line-height: var(--line-height-400);
+  }
+
+  .Link1-Subtitle2Web, :host .Link1-Subtitle2Web {
+    font-size: var(--font-size-400);
+    line-height: var(--line-height-400);
+  }
+
+  .Link2-Body1Web, :host .Link2-Body1Web {
+    font-size: var(--font-size-300);
+    line-height: var(--line-height-300);
+  }
+
+  .Link3-Body2Web, :host .Link3-Body2Web {
+    font-size: var(--font-size-200);
+    line-height: var(--line-height-300);
+  }
+}

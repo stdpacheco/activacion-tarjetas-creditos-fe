@@ -1,0 +1,40 @@
+:root {
+  
+  --breakpoint-xs: 0;          
+  --breakpoint-sm: 360px;      
+  --breakpoint-md: 768px;      
+  --breakpoint-lg: 1024px;     
+  --breakpoint-xl: 1280px;     
+  --breakpoint-xxl: 1440px;    
+  --breakpoint-xxxl: 1920px;   
+
+  --menu-left-width: 88px; 
+  --header-height: 60px;   
+  --menu-bottom-height: 88px;
+  --grid-gap: var(--spacing-sm-02);     
+  --container-padding: var(--spacing-md-02); 
+
+  --columns-mobile: 4;
+  --columns-tablet: 8;
+  --columns-desktop-s: 6;
+  --columns-desktop: 12;
+
+  
+  --column-width-lg: 134px;
+  --column-width-xl: 80px;
+  --column-width-xxl: 94px;
+  --column-width-xxxl: 134px;
+
+  
+  --z-index-base: 1;
+  --z-index-menu: 100;
+  --z-index-header: 1000;
+  --z-index-modal: 2000;
+  --z-index-tooltip: 3000;
+
+  --radius-xs: var(--radius-xs);      
+  --radius-sm: var(--radius-sm);      
+  --radius-md: var(--radius-md);      
+  --radius-lg: var(--radius-lg);      
+  --radius-xl: var(--radius-xl);      
+}
