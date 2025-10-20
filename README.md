@@ -50,8 +50,9 @@ If you are developing a production application, we recommend updating the config
 >>>>>>> 2d89006 (initial commit)
 
 ## Eecution Project
-fnm install 18.20.4
-fnm use 18.20.4
-npm install --legacy-peer-deps
-npm run dev
-npm run dev:local
+ - fnm install 18.20.4
+ - fnm use 18.20.4
+ - npm install --legacy-peer-deps
+ - npm run dev
+ - npm run dev:local
+
