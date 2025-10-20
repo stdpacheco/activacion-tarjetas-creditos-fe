@@ -1,0 +1,66 @@
+@import '/src/view/styles/utilities/variables';
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  a {
+    display: inline-flex;
+    align-self: flex-start;
+  }
+
+  .headerIcon {
+    font-size: 1.5rem;
+    color: $text-color-default;
+  }
+
+  .headerInfo {
+    color: $text-color-secondary;
+  }
+}
+
+.biometricGuide {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+
+  .dotStep {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+  .dotBtn {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .dotItem {
+    display: block;
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: $background-color-disabled;
+    border-radius: 100%;
+  }
+
+  .dotItemActive {
+    background-color: $background-color-primary;
+  }
+
+  .termsBtn{
+    all: unset;
+  }
+
+  .termsLink {
+    color: $text-color-link;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}

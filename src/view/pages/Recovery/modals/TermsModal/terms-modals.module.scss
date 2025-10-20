@@ -1,0 +1,36 @@
+@import '/src/view/styles/utilities/variables';
+
+.modalWrapper {
+  max-width: 25rem;
+}
+
+.terms{
+    &Container {
+      padding: 2rem;
+    }
+
+    &Icon {
+      font-size: 1.75rem;
+    }
+
+    &Content {
+      margin-top: .8rem;
+      display: flex;
+      flex-direction: column;
+      row-gap: 1.2rem;
+
+      &Title{
+        font-size: 1.375rem;
+        font-weight: 700;
+      }
+
+      & > p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.3125rem;
+        color: $text-color-default;
+        margin-bottom: .5rem;
+      }
+    }
+
+  }

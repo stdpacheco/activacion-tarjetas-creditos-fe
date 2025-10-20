@@ -1,0 +1,30 @@
+@import '/src/view/styles/utilities/variables';
+
+.modalWrapper {
+  max-width: 25rem;
+}
+
+.successChange{
+    &Container {
+      padding: 1rem;
+    }
+
+    &Icon {
+      font-size: 1.75rem;
+      color: $icon-color-success;
+    }
+
+    &Content {
+      margin-top: .8rem;
+      display: flex;
+      flex-direction: column;
+      row-gap: 1.2rem;
+
+      &Title{
+        font-size: 1.375rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+    }
+
+  }

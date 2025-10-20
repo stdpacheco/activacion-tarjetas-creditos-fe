@@ -1,0 +1,39 @@
+.modalWrapper {
+  max-width: 25rem;
+}
+
+.wrapper {
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  .title {
+    font-size: 1.375rem;
+    font-weight: 700;
+    align-self: flex-start;
+  }
+
+  .userInfo {
+    padding: 1rem;
+    min-width: 10.375rem;
+    background: var(--gray-200);
+    border-radius: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .copyIcon {
+    all: unset;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: inline-flex;
+  }
+
+  .copySuccess {
+    color: var(--icon-success);
+  }
+}
