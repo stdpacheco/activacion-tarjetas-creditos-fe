@@ -1,0 +1,83 @@
+$background-color-primary: #D2006E;
+$background-color-hover: #af1364 ;
+$text-color-link: #0F62FE;
+$text-color-default: #121212;
+$background-color-default: #FFFFFF;
+$icon-color-variant: #898989;
+$background-color-variant: #F9F9F9;
+$background-color-disabled: #EDEDED;
+$text-color-disabled:#898989;
+$text-color-terms: #012244;
+$border-color-variant: #d0d0d0;
+
+.input-login {
+    display: flex;
+    flex-direction: column;
+
+
+    label {
+      display: block;
+      color: #121212;
+      font-size: 1.125rem;
+      font-weight: 600;
+      line-height: 1.125rem;
+      word-wrap: break-word;
+      margin-bottom: .5rem;
+    }
+
+    input {
+      display: block;
+      width: 100%;
+      padding: 1rem .75rem;
+      border-radius: .5rem;
+      font-size: 16px;
+      font-weight: 500;
+      align-items: center;
+      transition: all 0.3s ease;
+      color:$text-color-default;
+      border: .0625rem solid $background-color-disabled;
+
+      &:focus {
+        border: .0625rem solid;
+        border-color: $text-color-default;
+        outline: none;
+      }
+    }
+
+    .error-border{
+      border: .0625rem solid $background-color-primary;
+      outline: none;
+    }
+
+    .password-input {
+      display: flex;
+      align-items: center;
+      position: relative;
+      input {
+        padding-right: 2.25rem;
+      }
+
+      .password-toggle {
+        position: absolute;
+        right: .75rem;
+        top: 31%;
+        cursor: pointer;
+
+        img {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+
+    }
+  }
+
+.question {
+  width: 100%;
+  text-align: center;
+  color: $text-color-link;
+  font-size: .9375rem;
+  font-weight: 600;
+  text-decoration: underline;
+  line-height: 115%;
+}
