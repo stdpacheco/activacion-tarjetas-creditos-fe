@@ -1,0 +1,105 @@
+.d-none { display: none !important; }
+.d-inline { display: inline !important; }
+.d-inline-block { display: inline-block !important; }
+.d-block { display: block !important; }
+.d-flex { display: flex !important; }
+.d-inline-flex { display: inline-flex !important; }
+.d-grid { display: grid !important; }
+.d-inline-grid { display: inline-grid !important; }
+
+.flex-row { flex-direction: row !important; }
+.flex-row-reverse { flex-direction: row-reverse !important; }
+.flex-column { flex-direction: column !important; }
+.flex-column-reverse { flex-direction: column-reverse !important; }
+
+.flex-wrap { flex-wrap: wrap !important; }
+.flex-nowrap { flex-wrap: nowrap !important; }
+.flex-wrap-reverse { flex-wrap: wrap-reverse !important; }
+
+.justify-content-start { justify-content: flex-start !important; }
+.justify-content-end { justify-content: flex-end !important; }
+.justify-content-center { justify-content: center !important; }
+.justify-content-between { justify-content: space-between !important; }
+.justify-content-around { justify-content: space-around !important; }
+.justify-content-evenly { justify-content: space-evenly !important; }
+
+.align-items-start { align-items: flex-start !important; }
+.align-items-end { align-items: flex-end !important; }
+.align-items-center { align-items: center !important; }
+.align-items-baseline { align-items: baseline !important; }
+.align-items-stretch { align-items: stretch !important; }
+
+.align-self-start { align-self: flex-start !important; }
+.align-self-end { align-self: flex-end !important; }
+.align-self-center { align-self: center !important; }
+.align-self-baseline { align-self: baseline !important; }
+.align-self-stretch { align-self: stretch !important; }
+
+.position-static { position: static !important; }
+.position-relative { position: relative !important; }
+.position-absolute { position: absolute !important; }
+.position-fixed { position: fixed !important; }
+.position-sticky { position: sticky !important; }
+
+.visible { visibility: visible !important; }
+.invisible { visibility: hidden !important; }
+
+@media (min-width: 360px) {
+  .d-sm-none { display: none !important; }
+  .d-sm-block { display: block !important; }
+  .d-sm-flex { display: flex !important; }
+  .d-sm-grid { display: grid !important; }
+}
+
+@media (min-width: 768px) {
+  .d-md-none { display: none !important; }
+  .d-md-block { display: block !important; }
+  .d-md-flex { display: flex !important; }
+  .d-md-grid { display: grid !important; }
+}
+
+@media (min-width: 1024px) {
+  .d-lg-none { display: none !important; }
+  .d-lg-block { display: block !important; }
+  .d-lg-flex { display: flex !important; }
+  .d-lg-grid { display: grid !important; }
+}
+
+@media (min-width: 1280px) {
+  .d-xl-none { display: none !important; }
+  .d-xl-block { display: block !important; }
+  .d-xl-flex { display: flex !important; }
+  .d-xl-grid { display: grid !important; }
+}
+
+@media (min-width: 1440px) {
+  .d-xxl-none { display: none !important; }
+  .d-xxl-block { display: block !important; }
+  .d-xxl-flex { display: flex !important; }
+  .d-xxl-grid { display: grid !important; }
+}
+
+.overflow-auto { overflow: auto !important; }
+.overflow-hidden { overflow: hidden !important; }
+.overflow-visible { overflow: visible !important; }
+.overflow-scroll { overflow: scroll !important; }
+
+.overflow-x-auto { overflow-x: auto !important; }
+.overflow-x-hidden { overflow-x: hidden !important; }
+.overflow-x-visible { overflow-x: visible !important; }
+.overflow-x-scroll { overflow-x: scroll !important; }
+
+.overflow-y-auto { overflow-y: auto !important; }
+.overflow-y-hidden { overflow-y: hidden !important; }
+.overflow-y-visible { overflow-y: visible !important; }
+.overflow-y-scroll { overflow-y: scroll !important; }
+
+.float-start { float: left !important; }
+.float-end { float: right !important; }
+.float-none { float: none !important; }
+
+.object-contain { object-fit: contain !important; }
+.object-cover { object-fit: cover !important; }
+.object-fill { object-fit: fill !important; }
+.object-scale-down { object-fit: scale-down !important; }
+.object-none { object-fit: none !important; }
