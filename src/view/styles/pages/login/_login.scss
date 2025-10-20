@@ -1,0 +1,55 @@
+.container-login {
+  height: 100%;
+  position: relative;
+  display: grid;
+  place-items: center;
+
+  .card {
+    @include card-lg;
+  }
+
+  @include responsive(768) {
+    .card {
+      width: 80%;
+    }
+  }
+
+  @include responsive(400) {
+    .card {
+      width: 100%;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .logo {
+    width: 100%;
+    margin-bottom: 1.25rem;
+  }
+
+  .expire-alert {
+    margin-bottom: 1rem;
+  }
+
+  .form {
+    display: grid;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: $background-color-default;
+    border-radius: 1rem;
+    padding: 2rem;
+    row-gap: 2rem;
+
+    .title {
+      span {
+        width: 100%;
+        color: $text-color-default;
+        font-size: 1.75em;
+        font-weight: 700;
+        word-wrap: break-word;
+      }
+    }
+  }
+}

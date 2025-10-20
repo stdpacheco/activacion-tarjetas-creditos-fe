@@ -1,0 +1,46 @@
+.sidebar {
+  position: fixed;
+  width: 100%;
+  height: 5.25rem;
+  z-index: 30;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: $background-color-default;
+
+  @include mq-min(mdVertical) {
+    & {
+      position: static;
+      width: 5.0625rem;
+      height: auto;
+      z-index: 0;
+      inset: 0;
+      flex-direction: column;
+      justify-content: flex-start;
+      border-radius: 0.5rem;
+      align-items: center;
+    }
+  }
+}
+
+.sidebar-logo {
+  width: 2rem;
+  height: 2rem;
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: inherit;
+  gap: 0.5rem;
+
+  @include mq-min(mdVertical) {
+    & {
+      gap: 1rem;
+    }
+  }
+}
